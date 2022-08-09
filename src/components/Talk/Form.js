@@ -11,6 +11,7 @@ const Form = () => {
     const form = useRef();
     const [showModal, setShowModal] = useState(false);
     const [error, setError] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
     const {
         value: fname,
         valueChangeHandler: fnameChangeHandler,
@@ -68,6 +69,7 @@ const Form = () => {
     }
     const sendEmail = (e) => {
         e.preventDefault();
+        setIsLoading(true);
         if (!formIsValid) {
             return;
         }
@@ -88,8 +90,10 @@ const Form = () => {
                     messageReset();
                     setShowModal(true);
                     setError(false)
+                    setIsLoading(false);
                 },
                 (error) => {
+                    setIsLoading(false);
                     setShowModal(true)
                     setError(true);
                 }
@@ -191,6 +195,11 @@ const Form = () => {
                         </p>
                     </div>
                 </Modal>
+            )}
+            {isLoading && (
+                <div className={classes.loadingModal}>
+                    <h1>Sending...</h1>
+                </div>
             )}
         </Fragment>
     );

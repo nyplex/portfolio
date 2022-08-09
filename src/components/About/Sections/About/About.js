@@ -15,8 +15,8 @@ const About = () => {
                     <p>
                         I graduated in 2022 with a license in computer science
                         with a focus in web development. During this year of
-                        study, I learned a several new technologies and I was
-                        able to work on several projects
+                        study, I learned a several new technologies, including Python and its framework Django. I was
+                        able to work on several projects, which you can see in my portolio.
                     </p>
                     <button
                         onClick={() => {

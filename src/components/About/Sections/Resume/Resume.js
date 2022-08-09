@@ -28,11 +28,11 @@ const Resume = () => {
         <div className={classes.container}>
             <div className={classes.para}>
                 <p>
-                    I am an energetic and imaginative graduateweb developer
-                    looking for an entry-levelposition within a tech
-                    company.Passionate about tech, I enjoy creatingwebsites to
-                    the very highest standards, andgiving customers and users
-                    the bestexperience possible.I have experience in various
+                    I am an energetic and imaginative graduate web developer
+                    looking for an entry-level position within a tech
+                    company. Passionate about tech, I enjoy problem-solving, as well creating websites to
+                    the very highest standards, and giving customers and users
+                    the best experience possible. I have experience in various
                     roles in the events and leisure industry.
                 </p>
                 <a

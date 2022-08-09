@@ -27,7 +27,7 @@
 }
 
 .profilePic {
-    @apply w-full
+    @apply w-full opacity-70
 }
 
 .display {

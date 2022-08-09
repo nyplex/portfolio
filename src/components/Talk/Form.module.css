@@ -41,3 +41,11 @@
 .modal > p {
     @apply text-black text-center body__l mt-8
 }
+
+.loadingModal {
+    @apply fixed z-[10000000] bg-gray-900 bg-opacity-90 w-[100vw] h-[100vh] top-0 left-0 flex flex-row items-center
+}
+
+.loadingModal > h1 {
+    @apply text-white text-center mx-auto heading__xl
+}
