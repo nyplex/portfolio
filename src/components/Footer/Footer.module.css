@@ -1,0 +1,7 @@
+.footer {
+    @apply bg-lightBlue py-8
+}
+
+.footer > p {
+    @apply body__m text-white text-center
+}

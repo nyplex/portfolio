@@ -1,0 +1,7 @@
+.span {
+    @apply text-black heading__xs
+}
+
+.title {
+    @apply text-black body__m
+}

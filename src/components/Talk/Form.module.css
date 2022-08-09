@@ -1,0 +1,43 @@
+.form {
+    @apply flex flex-col items-center gap-4 mt-4
+}
+
+.row {
+    @apply flex flex-row items-center gap-4 w-full
+}
+
+.textArea {
+    @apply w-full resize-none bg-transparent border-b-2 border-gray-700 px-2 py-1 text-gray-300 heading__xs md:body__m outline-none
+}
+
+.textAreaInvalid {
+    @apply border-2 border-red
+}
+
+.validBtn {
+    @apply heading__xs bg-red px-4 py-3 rounded-full text-white mt-4 hover:bg-rose-600
+}
+
+.invalidBtn {
+    @apply heading__xs bg-rose-300 px-4 py-3 rounded-full text-white mt-4
+}
+
+.inputInvalid {
+    @apply border-2 border-red
+}
+
+.modal {
+    @apply bg-white py-4 px-16
+}
+
+.modal > h1 {
+    @apply text-red heading__l text-center
+}
+
+.modal > img {
+    @apply max-w-[200px] mx-auto my-4
+}
+
+.modal > p {
+    @apply text-black text-center body__l mt-8
+}

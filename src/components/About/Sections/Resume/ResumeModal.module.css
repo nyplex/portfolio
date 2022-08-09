@@ -1,0 +1,11 @@
+.pdfContainer {
+    @apply text-white relative max-h-[90%]
+}
+
+.pdfContainer > button {
+    @apply ml-auto md:hidden mb-1 pr-3 block absolute top-[-5px] right-[-8px] z-[100]
+}
+
+.pdfContainer > button > img {
+    @apply w-[30px]
+}

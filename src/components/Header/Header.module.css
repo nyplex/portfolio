@@ -1,0 +1,51 @@
+.header {
+    @apply bg-lightBlue border-b-2 border-red overflow-hidden
+}
+
+.heroContainer {
+    @apply flex flex-row max-w-3xl items-end mx-auto px-0 justify-around relative pt-16
+}
+
+.heroLeftContainer {
+    @apply pt-32 z-10 mb-10
+}
+
+.heroLeftContainer h1 {
+    @apply heading__xl text-white mb-2
+}
+
+.heroLeftContainer h1 > span {
+    @apply text-red
+}
+
+.heroLeftContainer p {
+    @apply text-white body__l
+}
+
+.heroImage {
+    @apply md:relative absolute z-0 md:top-0 bottom-[0px] right-0 w-full xs:w-[50%] md:w-[49%] opacity-50 md:opacity-100  sm:block max-h-[400px] overflow-hidden
+}
+
+.profilePic {
+    @apply w-full
+}
+
+.display {
+    @apply absolute w-[70%] md:flex md:flex-row gap-4 bottom-6 left-[50%] translate-x-[-50%] py-2 px-6 text-center hidden rounded-full
+}
+
+.gradient {
+    background: transparent;
+}
+
+.iconContainer {
+    @apply mt-12
+}
+
+.iconContainer > ul {
+    @apply flex flex-row justify-start items-center gap-8 
+}
+
+.iconContainer > ul > li > a > img {
+    @apply w-8 h-8 hover:cursor-pointer hover:opacity-30
+}

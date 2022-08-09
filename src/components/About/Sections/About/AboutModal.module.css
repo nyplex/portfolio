@@ -1,0 +1,11 @@
+.container > h1 {
+    @apply heading__l text-red text-center
+}
+
+.container > p {
+    @apply body__l md:body__m text-black mt-4 leading-7 text-center px-4;
+}
+
+.container {
+    @apply bg-white py-4
+}

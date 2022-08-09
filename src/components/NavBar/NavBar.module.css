@@ -1,0 +1,32 @@
+.nav {
+    @apply flex flex-row justify-between items-center py-4 px-8 mx-auto fixed w-full z-[1000] bg-lightBlue left-[50%] translate-x-[-50%]
+}
+
+.logo {
+    @apply heading__m text-red border-2 p-1 rounded-full transition-all duration-300 hover:text-white hover:bg-red
+}
+
+.list {
+    @apply heading__m md:body__l hidden md:flex md:flex-row absolute md:relative md:top-0 top-[80px] left-0 bg-darkBlue md:bg-transparent border-b-4 border-red md:border-b-0 w-full justify-center gap-8 lg:justify-around text-white py-8 md:py-0 max-w-3xl flex-1
+}
+
+.showNav {
+    @apply flex flex-col md:flex-row
+}
+
+.mobileNavBackground {
+    @apply absolute top-0 left-0 w-[100vw] h-[100vh]
+}
+
+
+.list > li {
+    @apply cursor-pointer hover:text-red transition-all duration-300 text-center md:text-left z-50
+}
+
+.talk {
+    @apply body__l border-2 border-red text-white py-1 px-4 cursor-pointer hover:bg-red hover:border-white transition-all duration-300 hidden md:inline-block rounded-full
+}
+
+.burger {
+    @apply cursor-pointer hover:text-red md:hidden
+}

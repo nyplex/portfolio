@@ -1,0 +1,30 @@
+.container {
+    @apply px-2 md:px-8 bg-lightBlue pt-20 pb-40 md:pb-20 border-b-2 border-red
+}
+
+.container > h1 {
+    @apply  text-white mb-8 max-w-3xl mx-auto heading__xxl md:heading__xl
+}
+
+.title {
+    @apply text-center text-2xl text-white
+}
+
+.cardContainer {
+    @apply max-w-full md:max-w-3xl mx-auto flex flex-row flex-wrap gap-40 md:gap-12 justify-center
+}
+
+.cardDataContainer {
+    @apply flex flex-row items-center justify-between max-w-full flex-wrap
+}
+.cardTitle {
+    @apply  text-white mb-2 heading__m md:heading__xs
+}
+
+.cardMobileLink {
+    @apply text-white md:hidden flex flex-row gap-4 mb-4
+}
+
+.cardMobileLink > a {
+    @apply border-2 border-red px-4 py-2 min-w-[150px] bg-red hover:cursor-pointer  rounded-full text-center
+}

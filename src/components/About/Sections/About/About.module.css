@@ -1,0 +1,19 @@
+ .container {
+    @apply flex flex-col md:flex-row justify-center md:justify-around gap-8
+ }
+
+ .container h3 {
+    @apply heading__l md:heading__m text-white mb-4 text-center
+ }
+
+ .container > img {
+   @apply mx-auto
+ }
+
+ .container p {
+    @apply body__l md:body__m text-white leading-7 text-center max-w-[500px] mx-auto
+ }
+
+ .container button {
+    @apply border-2 border-red bg-darkBlue body__l md:body__m text-white px-4 py-2 mt-10 md:mt-6 hover:bg-red hover:border-white transition-all duration-300 mx-auto block rounded-full
+ }

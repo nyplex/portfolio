@@ -1,0 +1,43 @@
+.mainContainer {
+    @apply bg-darkBlue pb-20
+}
+.container {
+    @apply max-w-3xl mx-auto px-2 md:px-8 pt-20
+}
+
+.container > h2 {
+    @apply heading__xxl md:heading__l text-white text-center mb-8
+}
+
+.flexContainer {
+    @apply flex flex-col md:flex-row justify-between items-stretch gap-8 md:gap-0
+}
+
+.formContainer {
+    @apply w-full md:w-[50%] border-2 border-gray-600 rounded-sm p-4
+}
+
+.formContainer > h3 {
+    @apply heading__m md:heading__xs text-white text-center
+}
+
+.contactContainer {
+    @apply text-white flex flex-col gap-8 md:gap-0 items-center justify-between
+}
+
+.card {
+    @apply w-full text-left heading__xs text-white border-2 border-gray-600 px-4 py-4 rounded-sm 
+}
+
+
+.card > div {
+    @apply flex flex-row mb-4 items-center justify-start gap-4
+}
+
+.card > div > img {
+    @apply w-[30px]
+}
+
+.card > div > span { 
+    @apply text-white text-center heading__xs md:body__m
+}

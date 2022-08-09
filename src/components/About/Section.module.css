@@ -1,0 +1,27 @@
+.mainSection {
+    @apply bg-darkBlue md:px-8 px-2 pb-12 md:pb-24 border-b-2 border-red
+}
+
+.sectionHeading {
+    @apply heading__xxl md:heading__l text-white pt-20 
+}
+
+.sectionNav {
+    @apply body__l text-white mt-4
+}
+
+.sectionNav > ul {
+    @apply flex flex-row justify-between
+}
+
+.sectionNav > ul > li { 
+    @apply border-b-2  hover:border-white text-center pb-1 cursor-pointer flex-1
+}
+
+.nonActiveLink {
+    @apply border-transparent
+}
+
+.activeLink {
+    @apply border-white
+}
