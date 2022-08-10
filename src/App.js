@@ -1,3 +1,4 @@
+import React from "react";
 import { Fragment } from "react";
 import Section from "./components/About/Section";
 import Footer from "./components/Footer/Footer";

@@ -1,3 +1,4 @@
+import React from "react";
 import About from "./Sections/About/About";
 import Resume from "./Sections/Resume/Resume";
 import Skills from "./Sections/Skills/Skills";
