@@ -20,7 +20,7 @@
 }
 
 .pdfContainer {
-    @apply w-[80%] mx-auto md:w-[49%] max-w-[400px] relative cursor-pointer hover:opacity-50 order-2
+    @apply w-[80%] mx-auto md:w-[49%] max-w-[400px] relative cursor-pointer hover:opacity-50 order-2 hidden md:block
 }
 
 .loadingContainer {
