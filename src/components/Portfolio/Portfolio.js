@@ -59,8 +59,8 @@ const Portfolio = (props) => {
                         <div className={classes.cardDataContainer}>
                             <h3 className={classes.cardTitle}>{p.title}</h3>
                             <div className={`${classes.cardMobileLink}`}>
-                                <a href={props.livelink}>Live Project</a>
-                                <a href={props.gitLink}>GitHub</a>
+                                <a href={p.livelink}>Live Project</a>
+                                <a href={p.gitLink}>GitHub</a>
                             </div>
                         </div>
                         <Card
