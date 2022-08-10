@@ -20,7 +20,7 @@ const Header = (props) => {
                     <h1>
                         I'm <span>Alex</span> Nypels
                     </h1>
-                    <p>Fullstack Developer | Django & React</p>
+                    <p>Fullstack Developer</p>
                     <div className={classes.iconContainer}>
                         <ul>
                             <li>

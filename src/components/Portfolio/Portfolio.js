@@ -11,7 +11,7 @@ const projects = [
         name: checkmalt,
         title: "CheckMalt",
         description:
-            "Checkmalt is a web application that allows users to orders their drinks online, check the menu, and pay with credit card. It is a full stack application built with Django and PostgreSQL. It has been deployed on Heroku and AWS.",
+            "Checkmalt is a web application that allows users to order their drinks online, check the menu, and pay with a credit card. It is a full stack application built with Django and PostgreSQL. It has been deployed on Heroku and AWS.",
         classes: classes.firstCard,
         livelink: "https://checkmalt.herokuapp.com/",
         gitLink: "https://github.com/nyplex/CheckMalts",
@@ -21,7 +21,7 @@ const projects = [
         name: kanban,
         title: "Kanban",
         description:
-            "Kanban is a web application that allows users to create boards, add tasks, and delete tasks. It is a front end application built with React. It has been deployed on Heroku.",
+            "Kanban is a web application that allows users to create boards, add tasks, and delete tasks. It is a front-end application built with React. It has been deployed on Heroku.",
         classes: classes.secondCard,
         livelink: "https://nyplex-react-task-manager.herokuapp.com/",
         gitLink: "https://github.com/nyplex/kanban",
@@ -41,7 +41,7 @@ const projects = [
         name: memory,
         title: "Memory Game",
         description:
-            "Memory is a web application that allows users to play a memory game. It is a front end application built with vanilla javascript. It has been deployed on github pages.",
+            "Memory is a web application that allows users to play a memory game. It is a front-end application built with vanilla javascript. It has been deployed on GitHub pages.",
         classes: classes.fourthCard,
         livelink: "https://nyplex.github.io/live-memory-game/",
         gitLink: "https://github.com/nyplex/Memory-game",

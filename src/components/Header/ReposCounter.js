@@ -87,7 +87,7 @@ const ReposCounter = (props) => {
                     },
                     // Customize background - only used when the `background` prop is true
                     background: {
-                        fill: "#fecdd3",
+                        fill: "#fefefe",
                     },
                 }}
             >
